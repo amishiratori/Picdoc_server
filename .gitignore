@@ -1,0 +1,5 @@
+db/development.db
+public/
+views/
+Gemfile.lock
+test.rb
