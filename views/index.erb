@@ -1,0 +1,8 @@
+<form action='/image_request' method='post'>
+  <input type='text' name='image'>
+  <input type='submit' value='send'>
+</form>
+
+<% @pictograms.each do |pict| %>
+<%= pict.title, pict.image_url, pict.label%>
+<% end %>
