@@ -4,5 +4,7 @@
 </form>
 
 <% @pictograms.each do |pict| %>
-<%= pict.title pict.image_url pict.label %>
+<%= pict.title %>
+<%= pict.image_url %>
+<%= pict.label %>
 <% end %>
