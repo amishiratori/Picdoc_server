@@ -8,6 +8,7 @@ require 'uri'
 require './models'
 
 get '/' do
+  @pictograms = Pictogram.all
   erb :index
 end
 
