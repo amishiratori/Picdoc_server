@@ -32,7 +32,6 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    pycall (1.2.1)
     rack (2.0.7)
     rack-protection (2.0.5)
       rack
@@ -79,7 +78,6 @@ DEPENDENCIES
   fastri
   pg
   pry
-  pycall
   rake
   rcodetools
   rubocop

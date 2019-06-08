@@ -8,7 +8,6 @@ gem 'sinatra-contrib'
 gem 'rake'
 gem 'activerecord'
 gem 'sinatra-activerecord'
-gem 'pycall'
 
 group :development do
   gem 'sqlite3'
