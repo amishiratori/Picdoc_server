@@ -1,29 +1,99 @@
 Pictogram.create({
-  title: 'be quiet',
-  image_url: 'https://res.cloudinary.com/dg61muele/image/upload/v1560015572/be_quiet_x0neid.jpg',
+  title: 'BE QUIET',
+  image_url: 'https://res.cloudinary.com/dg61muele/image/upload/v1560046848/quiet_tz1ht2.jpg',
   label: 'shizukani'
 })
 
 Pictogram.create({
-  title: 'do not touch',
-  image_url: 'https://res.cloudinary.com/dg61muele/image/upload/v1560015520/dont_touch_nv08wh.jpg',
+  title: 'DO NOT TOUCH',
+  image_url: 'https://res.cloudinary.com/dg61muele/image/upload/v1560046847/hand_zufjqm.jpg',
   label: 'sawaruna'
 })
 
 Pictogram.create({
-  title: 'emergency door',
-  image_url: 'https://res.cloudinary.com/dg61muele/image/upload/v1560015520/fire_exit_af29ca.png',
+  title: 'EMERGENCY EXIT',
+  image_url: 'https://res.cloudinary.com/dg61muele/image/upload/v1560046848/hijoguchi_ziozwb.jpg',
   label: 'hijoguchi'
 })
 
 Pictogram.create({
-  title: 'hot spring',
-  image_url: 'https://res.cloudinary.com/dg61muele/image/upload/v1560015520/hot_spring_x5nf5q.jpg',
+  title: 'HOT SPRING',
+  image_url: 'https://res.cloudinary.com/dg61muele/image/upload/v1560046848/spa_i3eoyg.jpg',
   label: 'onsen'
 })
 
 Pictogram.create({
-  title: 'general information center',
-  image_url: 'https://res.cloudinary.com/dg61muele/image/upload/v1560015520/information_ppedyl.jpg',
+  title: 'GENERAL INFORMATION CENTER',
+  image_url: 'https://res.cloudinary.com/dg61muele/image/upload/v1560046848/hatena_tjoajw.jpg',
   label: 'annaijo'
+})
+
+Language.create({
+  language: 'Japanese',
+  code: 'ja'
+})
+
+Language.create({
+  language: 'Korean',
+  code: 'ko'
+})
+
+Language.create({
+  language: 'Portuguese',
+  code: 'pt'
+})
+
+Language.create({
+  language: 'Russian',
+  code: 'ru'
+})
+
+Language.create({
+  language: 'Spanish',
+  code: 'es'
+})
+
+Language.create({
+  language: 'Thai',
+  code: 'th'
+})
+
+Language.create({
+  language: 'Arabic',
+  code: 'ar'
+})
+
+Language.create({
+  language: 'Bangladeshi',
+  code: 'bn'
+})
+
+Language.create({
+  language: 'Cantonese',
+  code: 'yue'
+})
+
+Language.create({
+  language: 'Mandarin',
+  code: 'zh-Hans'
+})
+
+Language.create({
+  language: 'Filipino',
+  code: 'fil'
+})
+
+Language.create({
+  language: 'French',
+  code: 'fr'
+})
+
+Language.create({
+  language: 'German',
+  code: 'de'
+})
+
+Language.create({
+  language: 'Italian',
+  code: 'it'
 })

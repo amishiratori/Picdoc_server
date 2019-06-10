@@ -10,7 +10,7 @@ gem 'activerecord'
 gem 'sinatra-activerecord'
 
 group :development do
-  gem 'sqlite3'
+   gem 'sqlite3'
   gem 'rubocop'
   gem 'rubocop-performance'
   gem 'rcodetools'

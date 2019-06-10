@@ -3,6 +3,12 @@
   <input type='submit' value='send'>
 </form>
 
+<form action='/translate' method='post'>
+  <input type='text' name='language'>
+  <input type='text' name='title'>
+  <input type='submit' value='send'>
+</form>
+
 <% @pictograms.each do |pict| %>
 <%= pict.title %>
 <%= pict.image_url %>
